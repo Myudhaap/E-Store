@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>El-Shop</title>
+    <!-- css custom -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- section header start -->
+    <header class="header">
+      <h2 class="logo"><i class="fas fa-store"></i>Elstore</h2>
+
+      <nav class="menu">
+        <a href="#home" class="menu-list">Home</a>
+        <a href="#features" class="menu-list">Features</a>
+        <a href="#products" class="menu-list">Products</a>
+        <a href="#categories" class="menu-list">Categories</a>
+        <a href="#reviews" class="menu-list">Review</a>
+        <a href="#blogs" class="menu-list">Blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="shopping-btn"></div>
+        <div class="fas fa-user" id="user-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="text" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <img src="./assets/img/product-1.jpg" alt="Gambar Laptop">
+          <div class="box-content">
+            <h4 class="name">Laptop mac</h4>
+            <p>Price: <span>Rp. 10.0000.0000</span></p>
+            <p>Qty: <span>1</span></p>
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./assets/img/product-2.jpg" alt="Gambar Laptop">
+          <div class="box-content">
+            <h4 class="name">Laptop mac</h4>
+            <p>Price: <span>Rp. 10.0000.0000</span></p>
+            <p>Qty: <span>1</span></p>
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+      
+        <div class="box">
+          <img src="./assets/img/product-3.jpg" alt="Gambar Laptop">
+          <div class="box-content">
+            <h4 class="name">Laptop mac</h4>
+            <p>Price: <span>Rp. 10.0000.0000</span></p>
+            <p>Qty: <span>1</span></p>
+            <i class="fas fa-trash"></i>
+          </div>
+        </div>
+      </div>
+
+      <form action="" class="user-form">
+        <div class="input-group">
+          <label for="input-username">Username</label>
+          <input type="text" id="input-username">
+        </div>
+        <div class="input-group">
+          <label for="input-password">Password</label>
+          <input type="password" id="input-password">
+        </div>
+        <a href="#" class="btn">Login</a>
+        <p>Don't have accounnt? <a href="#">register now</a></p>
+      </form>
+    </header>
+    <!-- section header end -->
+
+    <!-- section home start -->
+    <section class="home" id="home">
+      <h3>Modern and <span>future</span> product for your</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi provident recusandae id!</p>
+      <a href="#" class="btn">shop now</a>
+    </section>
+    <!-- section home end -->
+
+    <!-- section features start -->
+    <section class="features" id="features">
+      <h3 class="title-section">our <span>features</span></h3>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./assets/art/Instant information-amico.png" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui alias placeat voluptate numquam incidunt cupiditate aut itaque consectetur vitae! Dolore!</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="./assets/art/Mobile payments-bro (1).png" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui alias placeat voluptate numquam incidunt cupiditate aut itaque consectetur vitae! Dolore!</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="./assets/art/In no time-rafiki.png" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui alias placeat voluptate numquam incidunt cupiditate aut itaque consectetur vitae! Dolore!</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+
+    </section>
+    <!-- section features end -->
+
+    <!-- section products start -->
+    <section class="products" id="products">
+      <h3 class="title-section">our <span>Products</span></h3>
+
+      <div class="swiper products-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="./assets/img/product-1.jpg" alt="">
+            <div class="box-content">
+              <div class="content-info">
+                <h4>Laptop Mac</h4>
+                <div class="price">Rp. 1.000.000</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to chart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/img/product-2.jpg" alt="">
+            <div class="box-content">
+              <div class="content-info">
+                <h4>Laptop Mac</h4>
+                <div class="price">Rp. 1.000.000</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to chart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/img/product-3.jpg" alt="">
+            <div class="box-content">
+              <div class="content-info">
+                <h4>Laptop Mac</h4>
+                <div class="price">Rp. 1.000.000</div>
+              </div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to chart</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- section products end -->
+
+    <!-- section categories start -->
+    <section class="categories" id="categories">
+      <h3 class="title-section">our <span>categories</span></h3>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./assets/img/product-1.jpg" alt="">
+          <h4>Laptop</h4>
+          <div class="diskon">upto 45% off</div>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="box">
+          <img src="./assets/img/product-3.jpg" alt="">
+          <h4>Handphone</h4>
+          <div class="diskon">upto 45% off</div>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="box">
+          <img src="./assets/img/product-2.jpg" alt="">
+          <h4>Smartwatch</h4>
+          <div class="diskon">upto 45% off</div>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+      </div>
+    </section>
+    <!-- section categories end -->
+
+    <!-- section reviews start -->
+    <section class="reviews" id="reviews">
+      <h3 class="title-section">our <span>review's</span></h3>
+
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="./assets/img/user-1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sint perferendis voluptatem ratione consectetur corporis iste praesentium tenetur alias dicta.</p>
+            <h4>Allufthy Sabirin</h4>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/img/user-2.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sint perferendis voluptatem ratione consectetur corporis iste praesentium tenetur alias dicta.</p>
+            <h4>Allufthy Sabirin</h4>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="./assets/img/user-3.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, sint perferendis voluptatem ratione consectetur corporis iste praesentium tenetur alias dicta.</p>
+            <h4>Allufthy Sabirin</h4>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- section reviews end -->
+
+    <!-- section our blogs start -->
+    <section class="blogs" id="blogs">
+      <h3 class="title-section">our <span>blog's</span></h3>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./assets/art/In no time-rafiki.png" alt="">
+          <div class="content-wrapper">
+            <a href="#" class="user"><i class="fas fa-user"></i>By User</a>
+            <a href="#" class="date"><i class="fas fa-callendar"></i>21 may, 2023</a>
+          </div>
+          <h4>MODERN AND FUTURE TECH</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore non veritatis totam eligendi nam laborum error ratione placeat autem.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="./assets/art/In no time-rafiki.png" alt="">
+          <div class="content-wrapper">
+            <a href="#" class="user"><i class="fas fa-user"></i>By User</a>
+            <a href="#" class="date"><i class="fas fa-callendar"></i>21 may, 2023</a>
+          </div>
+          <h4>MODERN AND FUTURE TECH</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore non veritatis totam eligendi nam laborum error ratione placeat autem.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="./assets/art/In no time-rafiki.png" alt="">
+          <div class="content-wrapper">
+            <a href="#" class="user"><i class="fas fa-user"></i>By User</a>
+            <a href="#" class="date"><i class="fas fa-callendar"></i>21 may, 2023</a>
+          </div>
+            <h4>MODERN AND FUTURE TECH</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore non veritatis totam eligendi nam laborum error ratione placeat autem.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </section>
+    <!-- section our blogs end -->
+
+    <!-- section footer start -->
+    <footer class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-store"></i>Elstore</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima quod impedit sunt.</p>
+          <div class="icons-share">
+            <a href="#" class="fa-brands fa-facebook-f"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="links"> <i class="fas fa-phone"></i>+6281311901903</a>
+          <a href="#" class="links"><i class="fas fa-envelope"></i>muhyudhapratama55@gmail.com</a>
+          <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>Surabaya, Indonesia - 60174</a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="" class="links"><i class="fas fa-arrow-right"></i>Home</a>
+          <a href="" class="links"><i class="fas fa-arrow-right"></i>features</a>
+          <a href="" class="links"><i class="fas fa-arrow-right"></i>products</a>
+          <a href="" class="links"><i class="fas fa-arrow-right"></i>categories</a>
+          <a href="" class="links"><i class="fas fa-arrow-right"></i>reviews</a>
+          <a href="" class="links"><i class="fas fa-arrow-right"></i>Blogs</a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="text" class="input-email" placeholder="your email">
+          <a href="" class="btn">subscribe</a>
+        </div>
+
+      </div>
+      <div class="credit">
+        created by <span>Mayutama.Dev</span> || all rights reserved
+      </div>
+    </footer>
+    <!-- section footer end -->
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- js custom -->
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
